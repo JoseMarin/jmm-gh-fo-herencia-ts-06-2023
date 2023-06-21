@@ -6,4 +6,8 @@ class Rider extends Repartidor {
         super(newName, newEdad, newArea);
         this.kmDia = newKmDia;
     }
+    //3-Métodos Propios
+    saluda() {
+        return `${super.saluda()} ${this.nombre}`;
+    }
 }

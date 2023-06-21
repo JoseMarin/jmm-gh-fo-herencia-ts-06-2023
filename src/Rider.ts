@@ -10,4 +10,13 @@ class Rider extends Repartidor {
         this.kmDia = newKmDia;
     }
     //3-Métodos Propios
+    //extiendo el método
+    saluda(): string {
+        return `${super.saluda()} ${this.nombre}`;
+    }
+
+    //sobreescritura de método
+    // saluda(): string {
+    //     return ` Adios ${this.nombre}`;
+    // }
 }

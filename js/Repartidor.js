@@ -13,4 +13,7 @@ class Repartidor extends Empleado {
     setArea(newArea) {
         this.area = newArea;
     }
+    saluda() {
+        return 'Hola';
+    }
 }
